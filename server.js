@@ -20,6 +20,7 @@ app.use(function (req, res, next) {
   next();
 });
 app.get('/', (req, res) => {
+  console.log(req.body);
   axios({
     url: `${url}/${req.body.cartoon}/info.0.json`,
     method: 'get',
