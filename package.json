@@ -1,0 +1,19 @@
+{
+  "name": "api-cartoon-test",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cartoon",
+    "api",
+    "test",
+    "masiv"
+  ],
+  "author": "Alexander Satizabal",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
