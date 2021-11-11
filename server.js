@@ -24,6 +24,6 @@ app.get('/', (req, res) => {
  
 });
 
-app.listen(port, () => {
-  console.log(`start server http://localhost:${port}`)
+app.listen(process.env.PORT || 8080, () => {
+  console.log(`start server`);
 })
