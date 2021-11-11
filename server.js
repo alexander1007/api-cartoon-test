@@ -14,7 +14,7 @@ app.use(express.urlencoded({
 }));
 app.get('/', (req, res) => {
   axios({
-    url: `${url}/${req.body.comic}/info.0.json`,
+    url: `${url}/${req.body.cartoon}/info.0.json`,
     method: 'get',
   }).then((response) => {
     res.json(response.data);
